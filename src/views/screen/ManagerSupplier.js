@@ -123,7 +123,7 @@ const Managersupplier = () => {
               <CardBody>
                 <Form>
                   <h6 className="heading-small text-muted mb-4">
-                    Thông tin supplier
+                    Thông tin
                   </h6>
 
                   <div className="pl-lg-4">
@@ -135,7 +135,7 @@ const Managersupplier = () => {
                         outline
                       >
                         {" "}
-                        Thêm supplier
+                        Thêm Nhà cung cấp
                       </Button>
                     </Row>
                     <Row>
@@ -145,7 +145,7 @@ const Managersupplier = () => {
                             className="form-control-label"
                             htmlFor="input-username"
                           >
-                            Supplier Name
+                            Tên Nhà cung cấp
                           </label>
                           <Input
                             name="NameSupplier"
@@ -175,7 +175,7 @@ const Managersupplier = () => {
                   <hr className="my-4" />
                   {/* Address */}
                   <h6 className="heading-small text-muted mb-4">
-                    Danh sách supplier
+                    Danh sách
                   </h6>
                   <div className="col">
                   <Card className="shadow">
@@ -214,7 +214,7 @@ const Managersupplier = () => {
                                         <DropdownItem
                                           onClick={() => deleteObject(data.IDSupplier)}
                                         >
-                                          Xóa supplier này
+                                          Xóa Nhà cung cấp
                                         </DropdownItem>
                                         <DropdownItem
                                           onClick={() => updateObject(data)}

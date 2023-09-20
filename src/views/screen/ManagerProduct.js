@@ -239,7 +239,7 @@ const ManagerProduct = () => {
                                 className="form-control-label"
                                 htmlFor="input-workpart"
                               >
-                                Supplier
+                                Nhà cung cấp
                               </label>
                               <FormGroup>
                                 <ButtonDropdown className="form-control-alternative">
@@ -252,7 +252,7 @@ const ManagerProduct = () => {
                                       className="dropdown-toggle"
                                     >
                                       {object.NameSupplier === ""
-                                        ? "Chọn supplier"
+                                        ? "Chọn nhà cung cấp"
                                         : object.NameSupplier}
                                     </DropdownToggle>
                                     <DropdownMenu className="currency-dropdown">
@@ -301,7 +301,7 @@ const ManagerProduct = () => {
                                 className="form-control-label"
                                 htmlFor="input-workpart"
                               >
-                                Category
+                                Danh mục
                               </label>
                               <FormGroup>
                                 <ButtonDropdown className="form-control-alternative">
@@ -314,7 +314,7 @@ const ManagerProduct = () => {
                                       className="dropdown-toggle"
                                     >
                                       {object.NameCategory === ""
-                                        ? "Chọn category"
+                                        ? "Chọn danh mục"
                                         : object.NameCategory}
                                     </DropdownToggle>
                                     <DropdownMenu className="currency-dropdown">
@@ -342,7 +342,7 @@ const ManagerProduct = () => {
                                 className="form-control-label"
                                 htmlFor="input-workpart"
                               >
-                                Descriptions
+                                Mô tả
                               </label>
                               <Input
                                 name="Descriptions"
@@ -448,7 +448,7 @@ const ManagerProduct = () => {
                                       href="#pablo"
                                       onClick={() => deleteObject(data)}
                                     >
-                                      Xóa sản phẩm này
+                                      Xóa sản phẩm
                                     </DropdownItem>
                                     <DropdownItem
                                       href="#pablo"

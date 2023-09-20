@@ -124,7 +124,7 @@ const ManagerCategory = () => {
               <CardBody>
                 <Form>
                   <h6 className="heading-small text-muted mb-4">
-                    Thông tin category
+                    Thông tin danh mục
                   </h6>
 
                   <div className="pl-lg-4">
@@ -136,7 +136,7 @@ const ManagerCategory = () => {
                         outline
                       >
                         {" "}
-                        Thêm category
+                        Thêm danh mục
                       </Button>
                     </Row>
                     <Row>
@@ -146,7 +146,7 @@ const ManagerCategory = () => {
                             className="form-control-label"
                             htmlFor="input-username"
                           >
-                            Category Name
+                            Tên danh mục
                           </label>
                           <Input
                             name="NameCategory"
@@ -176,7 +176,7 @@ const ManagerCategory = () => {
                   <hr className="my-4" />
                   {/* Address */}
                   <h6 className="heading-small text-muted mb-4">
-                    Danh sách category
+                    Danh sách
                   </h6>
                   <div className="col">
                   <Card className="shadow">
@@ -215,7 +215,7 @@ const ManagerCategory = () => {
                                         <DropdownItem
                                           onClick={() => deleteObject(data.IDCategory)}
                                         >
-                                          Xóa category này
+                                          Xóa danh mục
                                         </DropdownItem>
                                         <DropdownItem
                                           onClick={() => updateObject(data)}
